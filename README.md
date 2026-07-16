@@ -177,4 +177,68 @@
 | S3 | Near-monochrome dark | Single soft overhead (고립감 강조) |
 
 ---
+이전 리포트에서 **평가기준 11** 부분이 중간에 잘렸군요!  
+해당 섹션만 완성해서 드립니다. ✅
+
+---
+
+```markdown
+## 평가기준 11 · 결과 파일 네이밍/정리 규칙
+
+### 네이밍 컨벤션
+```
+[프로젝트코드]_[단계]_[씬번호]_[버전].[확장자]
+
+예시:
+NOSMOKING2025_IMG_S1_v1.png
+NOSMOKING2025_IMG_S2_v1.png
+NOSMOKING2025_IMG_S3_v1.png
+NOSMOKING2025_VIDEO_FINAL_v1.mp4
+NOSMOKING2025_VIDEO_FINAL_v1_subtitled.mp4
+NOSMOKING2025_AUDIO_BGM_v1.mp3
+NOSMOKING2025_REPORT_FINAL_v1.md
+```
+
+### 버전 표기 규칙
+| 표기 | 의미 |
+|---|---|
+| `v1` | 최초 생성본 |
+| `v2` | 프롬프트 수정 후 재생성본 |
+| `_final` | 최종 확정본 |
+| `_subtitled` | 자막·CTA 하드코딩 완료본 |
+| `_archive` | 보관용 (배포 제외) |
+
+### 폴더 구조
+```
+📁 NOSMOKING2025/
+├── 📁 01_기획/
+│   └── brief.md
+├── 📁 02_스토리보드/
+│   └── storyboard_v1.md
+├── 📁 03_이미지/
+│   ├── NOSMOKING2025_IMG_S1_v1.png
+│   ├── NOSMOKING2025_IMG_S2_v1.png
+│   └── NOSMOKING2025_IMG_S3_v1.png
+├── 📁 04_영상/
+│   ├── NOSMOKING2025_VIDEO_FINAL_v1.mp4
+│   └── NOSMOKING2025_VIDEO_FINAL_v1_subtitled.mp4
+├── 📁 05_오디오/
+│   └── NOSMOKING2025_AUDIO_BGM_v1.mp3
+├── 📁 06_리포트/
+│   └── NOSMOKING2025_REPORT_FINAL_v1.md
+└── 📁 07_archive/
+    ├── NOSMOKING2025_IMG_S1_v1_archive.png
+    └── NOSMOKING2025_VIDEO_DRAFT_v1_archive.mp4
+```
+
+### 정리 규칙 요약
+| 규칙 | 내용 |
+|---|---|
+| **단계별 폴더 분리** | 01~07 번호 prefix로 작업 순서 명시 |
+| **버전 누적 보관** | 덮어쓰기 금지 / v1→v2 순차 저장 |
+| **최종본 명시** | `_final` suffix로 배포본 식별 |
+| **보관본 분리** | `07_archive` 폴더에 초안·미사용본 격리 |
+| **확장자 통일** | 이미지 `.png` / 영상 `.mp4` / 오디오 `.mp3` / 문서 `.md` |
+```
+
 ```
