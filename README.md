@@ -341,6 +341,12 @@ NOSMOKING2025_REPORT_FINAL_v1.md
 | **Runway Gen-3** | Sora 2 대비 시네마틱 품질 열위 / 크레딧 소모 대비 결과 효율 낮음 |
 | **Kling 1.6** | 품질·비용 균형 우수하나 Sora 2의 10초 단일 생성 안정성에 미치지 못함 |
 ```
+https://github.com/user-attachments/assets/35b1ed58-6499-410d-86d9-9e50762acaaf
 
+<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/b56ad955-f94c-4089-a15d-fc1c4e7f2e88" />
+
+<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/6847d244-4a2c-4830-af7d-18c86d49420a" />
+
+<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/e03834eb-ca81-4917-a057-27d365b3f4a4" />
 
 ```
